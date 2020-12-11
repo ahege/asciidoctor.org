@@ -16,6 +16,24 @@ image:https://secure.travis-ci.org/asciidoctor/asciidoctor.org.svg?branch=master
 image:https://www.netlify.com/img/global/badges/netlify-dark.svg[Deploy Status,45,20,link={uri-netlify-deploys}]
 endif::[]
 
+// standard version
+:icons: font
+:stem: latexmath
+[NOTE] 
+This is important. 
+
+[red]*Test* This section defines the basic and the core architecture of the OpenSCENARIO standard. It establishes the scope of the standard and describes the concepts, relations and logical interfaces to external systems.
+--
+open - a general-purpose content wrapper; useful for enclosing content to attach to a list item
+--
+
+The European icon:flag[role=blue] is blue & contains pass:[************] arranged in a icon:circle-o[role=yellow].
+The pass:c[->] operator is often referred to as the stabby lambda.
+Since `pass:[++]` has strong priority in AsciiDoc, you can rewrite pass:c,a,r[C++ => C{pp}].
+// activate stem support by adding `:stem:` to the document header
+stem:[sqrt(4) = 2]
+
+
 This is the project site for the https://asciidoctor.org[Asciidoctor] project.
 The site is composed in AsciiDoc, styled by https://foundation.zurb.com/sites/docs/v/4.3.2[Foundation 4], baked with {uri-awestruct}[Awestruct], and hosted on {uri-netlify}[Netlify].
 
