@@ -52,11 +52,6 @@ The most common form of this is the open block, which is two hyphens.
 An open block can accept any "style" (i.e., block type) and become that block.
 To give you an example, here's an open block acting as a quote block:
 
-
-= Architectural Guidelines for OpenSCENARIO
-// standard version
-:icons: font
-:stem: latexmath
 [NOTE] 
 This is important. 
 
