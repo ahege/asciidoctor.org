@@ -26,6 +26,25 @@ This is important.
 --
 open - a general-purpose content wrapper; useful for enclosing content to attach to a list item
 --
+[plantuml]
+----
+Bob -> Alice : hello
+----
+
+[mermaid]
+----
+graph LR
+    A[Square Rect] -- Link text --> B((Circle))
+    A --> C(Round Rect)
+    B --> D{Rhombus}
+    C --> D
+----
+
+[,ruby]
+----
+puts 'Hello, World!' # <1>
+----
+<1> Prints `Hello, World!` to the console.
 
 The European icon:flag[role=blue] is blue & contains pass:[************] arranged in a icon:circle-o[role=yellow].
 The pass:c[->] operator is often referred to as the stabby lambda.
